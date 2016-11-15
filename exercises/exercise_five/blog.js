@@ -3,8 +3,7 @@
 class RevealHiddenText {
   constructor($blog) {
     this.$blog = $blog;
-    this.init();
-  }
+    this.init();}
 
   init() {
     this.revealExcerpt(this.$blog);
@@ -22,8 +21,7 @@ class RevealHiddenText {
         .not($p)
         .slideUp();
     });
-  }
-}
+}}
 
 $(function() {
   const $blog = $('#blog');
