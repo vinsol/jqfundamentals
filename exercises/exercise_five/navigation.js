@@ -1,6 +1,6 @@
 'use strict';
-
-class DropDownNavigation {
+class DropDownNavigation 
+{
   constructor($navList) {
     this.$navList = $navList;
     this.init();
@@ -12,7 +12,8 @@ class DropDownNavigation {
 
 
 
-  showMenu($navList) {    
+  showMenu($navList)
+  {    
     $navList.hover(function() {
       $(this)
         .toggleClass('hover')
@@ -22,6 +23,6 @@ class DropDownNavigation {
   }}
 
 $(function() {
-  const $navList = $('#nav li');
+  const $navList = $('#navli');
   new DropDownNavigation($navList);
 });
