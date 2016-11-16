@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Grid</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div id="filter">
+      <ul id="brands">
+        <li>
+          <input type="checkbox" id="brandA" value="BRAND A">
+          <label for="brandA">BRAND A</label>
+        </li>
+        <li>
+          <input type="checkbox" id="brandB" value="BRAND B">
+          <label for="brandB">BRAND B</label>
+        </li>
+        <li>
+          <input type="checkbox" id="brandC" value="BRAND C">
+          <label for="brandC">BRAND C</label>
+        </li>
+        <li>
+          <input type="checkbox" id="brandD" value="BRAND D">
+          <label for="brandD">BRAND D</label>
+        </li>
+      </ul>
+
+      <ul id="colors">
+        <li>
+          <input type="checkbox" id="blue" value="Blue">
+          <label for="blue">BLUE</label>
+        </li>
+        <li>
+          <input type="checkbox" id="green" value="Green">
+          <label for="green">GREEN</label>
+        </li>
+        <li>
+          <input type="checkbox" id="red" value="Red">
+          <label for="red">RED</label>
+        </li>
+        <li>
+          <input type="checkbox" id="yellow" value="Yellow">
+          <label for="yellow">YELLOW</label>
+        </li>
+      </ul>
+      <input type="checkbox" id="available">
+      <label for="available">Available Products</label><br>
+      <button id="all">All Products</button>
+    </div>
+
+    <div id="main_content"></div>
+
+    <script src="../libs/jquery-1.12.4.js"></script>
+    <script src="product.js"></script>
+  </body>
+</html>

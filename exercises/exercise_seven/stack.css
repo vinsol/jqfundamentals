@@ -1,0 +1,44 @@
+/*@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700);*/
+
+#div-btn {
+  width: 20%;
+  float: left;
+  position: fixed;
+}
+
+#main_content {
+  width: 80%;
+  float: right;
+}
+
+#main_content > div {
+
+  background-color: #ecece9;
+  margin: 10px auto 0;
+  width: 50%;
+height: 100px;}
+
+#main_content > div.highlight {
+  background-color: #f39caa;}
+
+div > p, div.highlight p {
+  text-align: center;
+  margin: 0 auto;
+  padding: 7% 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;}
+
+button {
+
+
+  margin: 10px 0 0 5px;
+  border-radius: 5px;
+  background-color: #3498db;
+  padding: 15px 30px;
+  border: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  color: white;
+}
