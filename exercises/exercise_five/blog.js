@@ -1,5 +1,3 @@
-'use strict';
-
 class RevealHiddenText {
   constructor($blog) {
     this.$blog = $blog;

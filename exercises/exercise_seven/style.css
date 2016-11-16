@@ -1,0 +1,24 @@
+ul {
+  list-style: none;
+  margin-left: -40px;
+}
+
+#filter {
+  width: 20%;
+  float: left;
+  position: fixed;
+}
+
+#main_content {
+  width: 80%;
+  float: right;
+}
+
+#main_content > span {
+  display: inline-block;
+  margin: 0 20px 10px;
+}
+
+button {
+  margin: 10px 0 0 5px;
+}
