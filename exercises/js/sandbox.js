@@ -1,6 +1,6 @@
 //Add five new list items to the end of the unordered list #myList.
-div = $('<div>');
-listItem = $('<li>').html('<span>List item<span>');
+var div = $('<div>'),
+  listItem = $('<li>').html('<span>List item<span>');
 for (var i = 0; i < 5; i++) {
   div.append(listItem.clone());
 }
@@ -10,9 +10,9 @@ $('#myList').append(div);
 $('li:nth-child(odd)').remove();
 
 //Add another h2 and another paragraph to the last div.module
-var heading = $('<h2>').text('Hello');
-var paragraph = $('<p>').text('Yes it is.');
-var newDiv = $('<div>').append(heading, paragraph);
+var heading = $('<h2>').text('Hello'),
+  paragraph = $('<p>').text('Yes it is.'),
+  newDiv = $('<div>').append(heading, paragraph);
 $('div.module').last().append(newDiv);
 
 //Add another option to the select element; give the option the value "Wednesday"
